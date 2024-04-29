@@ -51,5 +51,3 @@ This is an expense tracker application built using Vue 3 and the Composition API
 - Track your balance and see real-time updates.
 - Notifications will be displayed using Vue Toastification.
 
-## Project Structure
-

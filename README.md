@@ -1,46 +1,55 @@
-# Vue 3 TypeScript Project Template
+# Expense Tracker App with Vue 3 and Composition API
 
-This repository serves as a starting point for Vue 3 projects using TypeScript. It includes various packages and configurations to kickstart your development process.
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-
-## Project Overview
-
-This project is a Vue 3 template scaffolded with TypeScript, ready to be used as a foundation for your Vue applications. It includes configuration for router setup, Vite configuration for efficient development, and pre-configured packages such as PrimeVue for UI components, PrimeFlex for styling, and Unplugin for auto imports and auto components.
+This is an expense tracker application built using Vue 3 and the Composition API. It allows users to add and remove expenses/income, track their balance, and persist data using local storage. Additionally, it utilizes Vue Toastification for displaying notifications.
 
 ## Features
 
-- Vue 3 with TypeScript
-- Application setup using pnpm and vite
-- Pre-configured router setup
-- Vite configuration for fast development
-- PrimeVue for UI components
-- PrimeFlex for responsive styling
-- Unplugin for auto imports and auto components
+- Add and remove expenses/income items
+- Track balance with real-time updates
+- Data persistence using local storage
+- Notifications using Vue Toastification
+
+## Technologies Used
+
+- Vue.js 3
+- Composition API
+- Vue Toastification
+- Local Storage
 
 ## Installation
 
-To get started with this project, follow these steps:
+1. **Clone the repository:**
 
-```bash
-# Clone the repository
-git clone https://github.com/Im-Koushik/vue-ts-blank-template
+    ```bash
+    git clone https://github.com/Im-Koushik/expense-tracker
+    ```
 
-# Navigate to the project directory
-cd vue-ts-blank-template
+2. **Navigate to the project directory:**
 
-# Install dependencies
-pnpm install
-```
+    ```bash
+    cd expense-tracker
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    pnpm install
+    ```
+
+4. **Run the development server:**
+
+    ```bash
+    pnpm run dev
+    ```
+
+5. **Open your browser and visit [http://localhost:5173](http://localhost:5173) to view the app.**
 
 ## Usage
 
-```bash
-# Run Application
-pnpm dev
-```
+- Add new transactions using the "Add Transaction" form.
+- Remove transactions by clicking the delete button next to each transaction.
+- Track your balance and see real-time updates.
+- Notifications will be displayed using Vue Toastification.
+
+## Project Structure
+
